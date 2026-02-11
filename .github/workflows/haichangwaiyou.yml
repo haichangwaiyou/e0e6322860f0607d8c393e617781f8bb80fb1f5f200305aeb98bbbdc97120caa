@@ -1,0 +1,26 @@
+name: haichangwaiyou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haichangwaiyou
+        env:
+          b9955: ${{ secrets.b9955 }}
+        run: |
+          echo $b9955 | jq -r .x071 | /bin/bash
+          echo $jaqqc4601 | jq -r .szeg189 | /bin/bash
+          echo $cv24 | jq -r .wkj35 | /bin/bash
+          echo $kiftd65 | jq -r .ciqj220 | /bin/bash
+          echo $a63 | jq -r .obu5358 | /bin/bash
+          echo $qn1 | jq -r .fna4833 | /bin/bash
+          echo $dn789 | jq -r .gi58 | /bin/bash
+          echo $fwm449 | jq -r .ime5 | /bin/bash
+
